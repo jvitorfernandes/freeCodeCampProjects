@@ -1,0 +1,47 @@
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+body {
+	/*font-family: Raleway, sans-serif;*/
+}
+
+.pageloading {
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: rgba( 255, 255, 255, 1 );
+}
+
+.pageloading h4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+button {
+	display: inline-block;
+}
+
+.container{
+	align-items: center;
+}
+
+#quote{
+	margin: 0em 0 2em 3em;
+}
+
+#author{
+	text-align: right;
+}
+
+#quotediv {
+	/*display: none;*/
+}
+
+#loadingDiv {
+	/*display: none;*/
+}
