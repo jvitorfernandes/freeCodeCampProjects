@@ -9,9 +9,9 @@ $( document ).ready(function() {
 		$('#quotediv').hide();
 		$('#loadingDiv').show();
 
+		var url = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
 
-
-		$.get("https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?", 
+		$.getJSON(url, 
 			function(data) {
 	  			$("#quote").text(data.quoteText);
 
