@@ -1,0 +1,18 @@
+.container{
+	text-align: center;
+}
+
+#box{
+	margin: 0 auto;
+	border: 1px solid #E1E1E1;
+	padding: 5em;
+	border-radius: .75em;
+	max-width: 500px;
+}
+
+button{
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	height: initial;
+	font-weight: normal;
+}

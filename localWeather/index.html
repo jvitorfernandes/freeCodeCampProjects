@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>FreeCodeCamp Projects </title>
+  <title>Local Weather</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,16 +15,17 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="/image/png" href="../images/favicon.png">
 
 </head>
 <body>
@@ -32,32 +33,27 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row" style="margin-top: 15%"> 
-      <h1 style="text-align: center; font-family: monospace;"><i class="fa fa-free-code-camp"></i> freeCodeCamp projects</h1>
-    </div>  
-    <div class="row" style="margin-top: 10%">  
-      <div class="one-half column">
-        <ul >
-          <li >
-            Front End Development Certification
-              <ul>
-                <li>
-                  Intermediate Projects
-                  <ul>
-                    <li><a href="randomQuoteMachine/index.html" target="_blank">Random Quote Machine</a></li>
-                    <li><a href="localWeather/index.html" target="_blank">Local Weather</a></li>
-                  </ul>  
-                </li>
-              </ul>
-            </li>
-          </ul>
+    <div class="row">
+      <div id="box" style="margin-top: 15%">
+        <h4 id="location"> </h4>
+        <hr>
+        <img id="icon" src="" style="">
+        <h5 id="description"> </h5>
+        <button id="temp"></button>
       </div>
     </div>
   </div>
 
 
-<script src="https://use.fontawesome.com/8b7c7706c0.js"></script>
+
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://use.fontawesome.com/8b7c7706c0.js"></script>
+
 </body>
 </html>
