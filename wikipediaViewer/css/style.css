@@ -1,3 +1,4 @@
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -5,41 +6,33 @@
 }
 
 #start{
-	height: 100vh;
-	display: flex;
-	align-items: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .container{
-	text-align: center;
+    text-align: center;
 }
 
-#box{
-	display: none;
-	margin: 0 auto;
-	border: 1px solid #E1E1E1;
-	padding: 5rem;
-	border-radius: .75em;
-	max-width: 500px;
-}
 
 button{
-	font-size: 2rem;
-	padding: 1rem 2rem;
-	height: initial;
-	font-weight: normal;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    height: initial;
+    font-weight: normal;
 }
 
 .pageloading {
-	/*display: none;*/
-	text-align: center;
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: rgba( 255, 255, 255, 1 );
+    /*display: none;*/
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba( 255, 255, 255, 1 );
 }
 
 .pageloading h4 {
@@ -49,42 +42,30 @@ button{
 }
 
 form{
- 	
+
 }
 
 input {
 /*	min-width: 200px;*/
-	width: 65%;
-	font-size: 12px;
+    width: 65%;
+    font-size: 12px;
 }
 
 
 #search{
-
-	align-items: center;
-	justify-content: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
 }
 
-.four{
-	text-align: left;
-}
-
-.eight{
-	text-align: right;
+.navigation{
+    padding: 2rem;
 }
 
 #results p{
     text-align: left;
 }
 
-.resultados {
-    text-align: left;
-    padding: 5rem;
-    padding-top: 0;
-	border-radius: .75em;
-	max-width: 1000px;
-    margin: 0 auto;
-}
 
 .titulo{
     padding-top: 5rem;
@@ -96,4 +77,30 @@ input {
 
 .resultado p{
     padding-left: 2rem;
+}
+
+@media (min-width: 400px) {
+    #box{
+        display: none;
+        margin: 0 auto;
+        border: 1px solid #E1E1E1;
+        padding: 5rem;
+        border-radius: .75em;
+        max-width: 500px;
+    }
+    .resultados {
+        text-align: left;
+        padding: 5rem;
+        padding-top: 0;
+        border-radius: .75em;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .four{
+    text-align: left;
+}
+
+    .eight{
+        text-align: right;
+    }
 }
