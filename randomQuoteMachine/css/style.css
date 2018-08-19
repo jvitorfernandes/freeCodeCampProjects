@@ -2,7 +2,7 @@
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 
 body {
-	/*font-family: Raleway, sans-serif;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .pageloading {
